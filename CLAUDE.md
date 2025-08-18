@@ -496,7 +496,6 @@ export default function RootLayout({ children }) {
 - docs/007-drag-and-drop.md: ドラッグ&ドロップ機能の実装
 - docs/008-localstorage-integration.md: LocalStorage統合
 - docs/009-ui-ux-design.md: UI/UXデザインとスタイリング
-- docs/010-testing-qa.md: テストと品質保証
 
 ### 12.2 タスク完了管理
 各チケット内のタスクは以下の形式で管理します：
