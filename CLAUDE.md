@@ -482,3 +482,25 @@ export default function RootLayout({ children }) {
   )
 }
 ```
+
+## 12. チケット管理
+
+### 12.1 チケット一覧
+開発タスクは以下のチケットに分割されています：
+- docs/001-project-setup.md: プロジェクトセットアップと初期設定
+- docs/002-kanban-board-layout.md: カンバンボードレイアウトの実装
+- docs/003-task-data-structure.md: タスクカードのデータ構造と型定義
+- docs/004-task-creation.md: タスク作成機能の実装
+- docs/005-task-editing.md: タスク編集機能の実装
+- docs/006-task-deletion.md: タスク削除機能の実装
+- docs/007-drag-and-drop.md: ドラッグ&ドロップ機能の実装
+- docs/008-localstorage-integration.md: LocalStorage統合
+- docs/009-ui-ux-design.md: UI/UXデザインとスタイリング
+- docs/010-testing-qa.md: テストと品質保証
+
+### 12.2 タスク完了管理
+各チケット内のタスクは以下の形式で管理します：
+- `- [ ]`: 未完了のタスク
+- `- [x]`: 完了したタスク
+
+タスクを完了した際は、該当するチケット内のチェックボックスを `- [ ]` から `- [x]` に更新してください。
