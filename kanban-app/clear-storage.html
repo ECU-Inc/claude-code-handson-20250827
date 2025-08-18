@@ -1,0 +1,18 @@
+<\!DOCTYPE html>
+<html>
+<head>
+    <title>Clear LocalStorage</title>
+</head>
+<body>
+    <h1>LocalStorage クリアツール</h1>
+    <button onclick="clearStorage()">LocalStorageをクリア</button>
+    <p id="status"></p>
+    <script>
+        function clearStorage() {
+            localStorage.clear();
+            document.getElementById('status').textContent = 'LocalStorageをクリアしました。ページをリロードしてください。';
+        }
+    </script>
+</body>
+</html>
+EOF < /dev/null
